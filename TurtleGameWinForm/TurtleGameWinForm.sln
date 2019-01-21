@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleGameWinForm", "TurtleGameWinForm\TurtleGameWinForm.csproj", "{9477B81D-9054-46F6-A40F-011179F54504}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaAdviser", "..\..\CinemaAdviser\CinemaAdviser\CinemaAdviser\CinemaAdviser.csproj", "{1E709014-6E12-41E5-867D-DE7A8330A66C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9477B81D-9054-46F6-A40F-011179F54504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9477B81D-9054-46F6-A40F-011179F54504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9477B81D-9054-46F6-A40F-011179F54504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E709014-6E12-41E5-867D-DE7A8330A66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E709014-6E12-41E5-867D-DE7A8330A66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E709014-6E12-41E5-867D-DE7A8330A66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E709014-6E12-41E5-867D-DE7A8330A66C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
