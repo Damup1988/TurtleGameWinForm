@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
+using Microsoft.SmallBasic.Library;
 
 namespace TurtleGameWinForm
 {
@@ -11,10 +12,14 @@ namespace TurtleGameWinForm
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello world!");
-            WriteLine("I'm studieng C#");
-
-            ReadLine();
+            Turtle.Speed = 9;
+            int i = 0;
+            while (i < 4)
+            {
+                Turtle.Move(100);
+                Turtle.TurnRight();
+                i++;
+            }
         }
     }
 }
